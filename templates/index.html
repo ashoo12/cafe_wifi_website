@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'header.html' %}
+<body>
+
+{% block content %}
+<section class="top-container">
+    <img class="title-image" src="static/images/laptop_image.jpg">
+    <h1 class="title-heading">LIKE COWORKING,<br>BUT BETTER</h1>
+    <h3 class="title-subheading">From coffee shops to hotel lobbies,<br>discover everyday places to work and connect</h3>
+    <a class="title-button btn btn-lg " href="{{url_for('cafes')}}">EXPLORE</a>
+</section>
+<section class="middle-container">
+    <div class="row">
+        <div class="col-lg-4">
+            <i class="fa-solid fa-laptop"></i>
+            <h1>BE PRODUCTIVE</h1>
+            <p>Find venues with reliable Wi-Fi, ample power sockets, and comfy seating areas.</p>
+        </div>
+        <div class="col-lg-4">
+            <i class="fa-solid fa-face-smile"></i>
+            <h1>FEEL WELCOME</h1>
+            <p>Discover the best times to work, based on community data.</p>
+        </div>
+        <div class="col-lg-4">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h1>STAY INSPIRED</h1>
+            <p>Uncover new places with laid-back ambiance, and friendly vibes.</p>
+        </div>
+    </div>
+</section>
+<section class="testimonial-container">
+    <h1 class="testimonial-heading">HEAR IT FROM OTHERS</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="testimonial-img" src="static/images/boy1.jpg">
+            <h1>@VUKNIKOLIC</h1>
+            <p>"Remoter is an awesome service for finding places to get your work done. The crew helped me discover some hidden gems all over the city!"</p>
+        </div>
+        <div class="col-lg-4">
+            <img class="testimonial-img" src="static/images/girl.jpg">
+            <h1>@DUNJALAZIC</h1>
+            <p>"It enabled me to find great places to work from and meet new like-minded people. I love the flexibility and the offers at each spot, thanks for making this!"</p>
+        </div>
+        <div class="col-lg-4">
+            <img class="testimonial-img" src="static/images/boy2.jpg">
+            <h1>@MIKEOGHIA</h1>
+            <p>"Exactly the professional network I’ve been searching for. I can work and socialize with other freelancers while discovering interesting spaces around the city."</p>
+        </div>
+    </div>
+</section>
+<section class="bottom-container">
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-facebook"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope"></i>
+    <h3><i class="fa-solid fa-copyright"></i>Remoters</h3>
+
+</section>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+  text-align: center;
+   letter-spacing: 1px;
+   line-height:1.5;
+}
+h1{
+  font-size:2.3rem;
+}
+p{
+  font-size:1.5rem;
+}
+.navbar-brand{
+    font-size:2.5rem;
+    padding:15px;
+
+}
+.navbar{
+margin-bottom:0;
+}
+.navbar-nav {
+    float: right;
+    font-size: 1.3rem;
+    padding-right:10px;
+}
+
+.title-image{
+    max-width: 100%;
+}
+.title-heading,.title-subheading,.title-button{
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.title-heading,.testimonial-heading{
+  top:60%;
+  color:white;
+  font-size:3.3rem;
+  font-weight:700;
+}
+.title-subheading{
+  top:70%;
+  color:white;
+  font-size:1.3rem;
+  font-weight:500;
+}
+
+.title-button{
+  top: 80%;
+  font-size:2.5rem;
+  background-color:#f6d95e;
+  padding:15px 30px;
+
+}
+.middle-container{
+  padding:150px 50px;
+  font-size:32px;
+}
+
+.testimonial-container{
+   background-color:#f6d95e;
+   padding:150px 50px;
+}
+.testimonial-heading{
+   padding-bottom:50px;
+
+}
+.testimonial-img{
+   width: 25%;
+   height:35%;
+   border-radius:50%;
+}
+.bottom-container{
+   padding:20px;
+   font-size:20px;
+}
+.footer-icon{
+   padding-right:10px;
+   padding-bottom:10px;
+
+}

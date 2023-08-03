@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Cafes</title>
+    {% include 'header.html' %}
+</head>
+<body>
+{% for cafe in all_cafes%}
+<div class="row">
+    <div class="col-lg-6">
+
+        <a href="{{url_for('cafe_amenities',id=cafe.id)}}"><h2>{{cafe.id}}.{{cafe.name}}</h2><br></a>
+
+    </div>
+    <div class="col-lg-6">
+
+        <a class="btn btn-lg " href="{{url_for('delete',id=cafe.id)}}">Delete</a>
+
+    </div>
+</div>
+    {%endfor%}
+</body>
+</html>
